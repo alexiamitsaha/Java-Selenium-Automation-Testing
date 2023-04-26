@@ -1,4 +1,4 @@
-package com.herokuapp.javaSeleniumAutomationTest.testCases;
+package com.herokuapp.javaSeleniumAutomationTest.basicJava;
 
 
 
@@ -29,7 +29,6 @@ public class BaseClass {
     @BeforeMethod
     public void beforeMethod() {
         driver.navigate().to("http://the-internet.herokuapp.com/");
-        //driver.navigate().to("https://www.facebook.com/");
         sleepTest(2000);
     }
     @AfterMethod

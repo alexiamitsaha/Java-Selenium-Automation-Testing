@@ -1,4 +1,4 @@
-package com.herokuapp.javaSeleniumAutomationTest.pages;
+package com.herokuapp.javaSeleniumAutomationTest.basicJava;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
