@@ -3,7 +3,7 @@ package com.herokuapp.javaSeleniumAutomationTest.utilities;
 public class Data {
 
     //Data
-    public static final String PHONE_NUMBER = "01763450445";
+    public static final String PHONE_NUMBER = "01675974050";
     public static final String NEGATIVE_ERROR_MASSAGE = "Not visible";
     public static final String POSETIVE_MASSAGE = "Visible-";
     public static final String CREATE_NEW_ACCOUNT = "Create New Account";
@@ -28,6 +28,18 @@ public class Data {
     public static final String  CHECK_BOX2_SELECTED = "Check Box 2 Selected";
     public static final String  CHECK_BOX1_SELECTED = "Check Box 1 Selected";
     public static final String  CHECK_BOX_LINK = "checkboxes";
+
+    //Disappearing Elements"
+    public static final String  DISAPPEARING_ELEMENTS = "disappearing_elements";
+
+    //Drag And Drop
+    public static final String  DRAG_AND_DROP_LINK = "drag_and_drop";
+
+    //Drop Down
+    public static final String  DROP_DOWN_LINK = "dropdown";
+    public static final String  DROP_DOWN_Option1_Text= "Option 1";
+    public static final String  DROP_DOWN_Option2_Text= "Option 2";
+
 
 
 }

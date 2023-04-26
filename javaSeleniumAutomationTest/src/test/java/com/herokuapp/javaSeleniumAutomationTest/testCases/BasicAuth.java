@@ -1,15 +1,15 @@
 package com.herokuapp.javaSeleniumAutomationTest.testCases;
 
+import com.herokuapp.javaSeleniumAutomationTest.basicJava.BaseClass;
 import com.herokuapp.javaSeleniumAutomationTest.pages.Basic_Auth;
-import com.herokuapp.javaSeleniumAutomationTest.pages.Internet;
+import com.herokuapp.javaSeleniumAutomationTest.basicJava.Internet;
 import com.herokuapp.javaSeleniumAutomationTest.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BasicAuth extends BaseClass {
     @Test
-    public  void  basicAuth ()
-    {
+    public  void  basicAuth () throws InterruptedException {
         Internet ti = new Internet(driver);
         Basic_Auth ba =new Basic_Auth(driver);
 
@@ -18,14 +18,13 @@ public class BasicAuth extends BaseClass {
         System.out.println("Given "+baseLink);
         Assert.assertEquals(baseLink, Data.BASE_URL);
         System.out.println("Home URL is validate");
-        sleepTest(500);
+        Thread.sleep(1000);
 
         //TestCase-2 BasicAuth Text validation in Base page
-        if(ti.getBasicAuth().isDisplayed()){
-            String basicAuthText= ti.basicAuth.getText();
-            Assert.assertTrue(true,basicAuthText);
-        }
-        else {
+        if (ti.getBasicAuth().isDisplayed()) {
+            String basicAuthText = ti.basicAuth.getText();
+            Assert.assertTrue(true, basicAuthText);
+        } else {
             System.out.println(Data.NEGATIVE_ERROR_MASSAGE);
         }
 
@@ -33,6 +32,9 @@ public class BasicAuth extends BaseClass {
         sleepTest(500);
         driver.get("http://admin:admin@the-internet.herokuapp.com/basic_auth");
         sleepTest(500);
+
+
+
 
         //TestCase-3 Header Validation
         if (ba.getBasicAuthHeader1().isDisplayed()){
@@ -52,10 +54,10 @@ public class BasicAuth extends BaseClass {
         else {
             System.out.println(Data.NEGATIVE_ERROR_MASSAGE);
         }
-        sleepTest(500);
+        Thread.sleep(1000);
         driver.navigate().back();
         driver.navigate().back();
-        sleepTest(500);
+        Thread.sleep(1000);
 
         System.out.println("Test Run Successfully");
     }

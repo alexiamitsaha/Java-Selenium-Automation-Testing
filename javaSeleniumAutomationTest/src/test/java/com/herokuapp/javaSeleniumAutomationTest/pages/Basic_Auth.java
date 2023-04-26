@@ -1,6 +1,6 @@
 package com.herokuapp.javaSeleniumAutomationTest.pages;
 
-import org.openqa.selenium.By;
+import com.herokuapp.javaSeleniumAutomationTest.basicJava.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
