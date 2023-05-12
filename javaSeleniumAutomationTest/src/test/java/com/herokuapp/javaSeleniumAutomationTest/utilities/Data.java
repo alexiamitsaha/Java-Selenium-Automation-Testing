@@ -40,6 +40,9 @@ public class Data {
     public static final String  DROP_DOWN_Option1_Text= "Option 1";
     public static final String  DROP_DOWN_Option2_Text= "Option 2";
 
+    //Dynamic Content
+    public static final String  DYNAMIC_CONTENT_LINK = "dynamic_content";
+
 
 
 }
