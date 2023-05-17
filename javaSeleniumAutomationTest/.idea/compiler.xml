@@ -9,8 +9,5 @@
         <module name="javaSeleniumAutomationTest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="javaSeleniumAutomationTest" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
