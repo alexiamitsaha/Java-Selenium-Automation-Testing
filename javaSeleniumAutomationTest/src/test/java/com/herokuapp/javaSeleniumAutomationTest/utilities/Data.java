@@ -43,6 +43,10 @@ public class Data {
     //Dynamic Content
     public static final String  DYNAMIC_CONTENT_LINK = "dynamic_content";
 
+    //Dynamic Control
+    public static final String  DYNAMIC_Control_LINK = "dynamic_controls";
 
-
+    //FILE DOWNLOAD
+    public static final String  DOWNLOAD_LINK = "download";
+    public static final String  DOWNLOAD_FILE_PATH = "C:\\Users\\Amit Saha\\Downloads";
 }
