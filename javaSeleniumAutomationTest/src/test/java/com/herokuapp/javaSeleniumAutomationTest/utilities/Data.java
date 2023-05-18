@@ -49,4 +49,24 @@ public class Data {
     //FILE DOWNLOAD
     public static final String  DOWNLOAD_LINK = "download";
     public static final String  DOWNLOAD_FILE_PATH = "C:\\Users\\Amit Saha\\Downloads";
+
+    //File Upload
+    public static final String  FILE_UPLOAD_URL = "https://the-internet.herokuapp.com/upload";
+    public static final String  FILE_UPLOAD_PATH = "C:\\Users\\Amit Saha\\Downloads\\IMG_1377.JPG";
+    public static final String  UPLOAD_LINK = "upload";
+
+    //File Upload Corresponding Page
+    public static final String   FILE_UPLOAD_CORRESPONDING_HEADER = "File Uploaded!";
+
+
+    //Forgot Password
+    public static final String   FORGOT_PASSWORD_LINK = "forgot_password";
+    public static final String   FORGOT_PASSWORD_HEADER = "Forgot Password";
+    public static final String   FORGOT_PASSWORD_PAGE_EMAIL =  "alexiamitsaha@gmail.com";
+
+    //frames
+    public static final String   FRAMES_LINK = "frames" ;
+    public static final String   INPUT_TEXT= "Hi There, WhatsUp !!! Your Iframe and Input is working " ;
+
+
 }
