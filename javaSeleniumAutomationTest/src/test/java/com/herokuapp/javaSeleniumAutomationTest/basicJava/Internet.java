@@ -1,6 +1,7 @@
 package com.herokuapp.javaSeleniumAutomationTest.basicJava;
 
 import com.herokuapp.javaSeleniumAutomationTest.basicJava.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -153,7 +154,11 @@ public class Internet extends BasePage {
     public WebElement getHorizontalSlider() {
         return horizontalSlider;
     }
-
+//    @FindBy(xpath = "/html//div[@id='content']//input[@value='0']")
+//    public WebElement slider;
+//    public WebElement getSlider(){
+//        return slider;
+//    }
     //Hover
     @FindBy(css = "[href='\\/hovers']")
     public WebElement hover;

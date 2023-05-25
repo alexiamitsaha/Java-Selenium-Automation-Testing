@@ -68,5 +68,10 @@ public class Data {
     public static final String   FRAMES_LINK = "frames" ;
     public static final String   INPUT_TEXT= "Hi There, WhatsUp !!! Your Iframe and Input is working " ;
 
+    //HorizontalSlider
+    public static final String  HORIZONTAL_SLIDER_LINK = "horizontal_slider" ;
+    public static final String  HORIZONTAL_SLIDER_HEADER1 = "Horizontal Slider" ;
+
+    public static final String SLIDER = "slider";
 
 }
