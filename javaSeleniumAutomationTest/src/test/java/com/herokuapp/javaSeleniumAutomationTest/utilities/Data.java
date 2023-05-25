@@ -72,6 +72,9 @@ public class Data {
     public static final String  HORIZONTAL_SLIDER_LINK = "horizontal_slider" ;
     public static final String  HORIZONTAL_SLIDER_HEADER1 = "Horizontal Slider" ;
 
-    public static final String SLIDER = "slider";
+    //public static final String SLIDER = "slider";
+
+    //MouseHover
+    public static final String  MOUSE_HOVER_LINK = "hovers" ;
 
 }
